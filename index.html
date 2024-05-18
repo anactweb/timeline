@@ -11,12 +11,13 @@
     <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
     <script type="text/javascript">
         var additionalOptions = {
-            language: "fr",
+         language: "fr",
             initial_zoom: 2,
             hash_bookmark: true,
-            timenav_height: 150,
-            timenav_height_percentage: 25,
-            timenav_height_min: 150,
+            timenav_height_percentage: 20, // Adjusts the height of the timeline navigation bar
+            timenav_position: "bottom", // Position the timeline navigation bar at the bottom
+            slide_padding_lr: 50, // Adjust padding of slides (left-right)
+            optimal_tick_width: 100, // Optimal width for date ticks on the timeline
           };
         timeline = new TL.Timeline('timeline-embed','https://docs.google.com/spreadsheets/d/1sU_ljoA9jAZGwWUyfXQemsZ1zC3M2gk6JzbZo6BNd9E/edit#gid=372501184',additionalOptions);
     </script>
