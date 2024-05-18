@@ -143,20 +143,22 @@
             return url_vars;
         };
 
-        ready(function() {
-            setPageLanguage();
-            var embed_path = computeEmbedPath();
-            addOembedTag();
+ready(function() {
+    setPageLanguage();
+    var embed_path = computeEmbedPath();
+    addOembedTag();
 
-            var options = optionsFromUrlParams();
-            createEmbedDiv('timeline-embed', options.width, options.height);
-            // ga_property_id is not something we let users override
-            options.ga_measurement_id = 'G-LVEFKMG087'
-            if (typeof(options.source) == 'undefined') {
-                options.source = '1sU_ljoA9jAZGwWUyfXQemsZ1zC3M2gk6JzbZo6BNd9E' // women in computing
-            }
+    var options = optionsFromUrlParams();
+    options.language = 'fr'; // Définition de la langue en français
 
-            options.soundcite = true;
+    createEmbedDiv('timeline-embed', options.width, options.height);
+    // ga_property_id is not something we let users override
+    options.ga_measurement_id = 'G-LVEFKMG087'
+    if (typeof(options.source) == 'undefined') {
+        options.source = '1sU_ljoA9jAZGwWUyfXQemsZ1zC3M2gk6JzbZo6BNd9E' // women in computing
+    }
+
+    options.soundcite = true;
 
             window.options = options
             window.timeline = new TL.Timeline('timeline-embed', options.source, options)
