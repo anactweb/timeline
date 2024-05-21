@@ -42,9 +42,9 @@
 /*	Mixins.less
 	Snippets of reusable CSS to develop faster and keep code readable
  * ----------------------------------------------------------------- */
-/* AJOUT LD */
+/* AJOUT LD
 
-span.button {
+div.button {
     align-items: center;
     background-color: #37A6C3;
     display: inline-flex;
@@ -57,23 +57,11 @@ span.button {
     width: -moz-fit-content;
     width: fit-content;
     z-index: 1;
-}
+} */
 
-.tl-text .tl-note a
-  margin: 0 3px 0 5px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 0;
-  width: 16px;
-  height: 16px;
+.tl-text .tl-note a:link {
   text-decoration: underline !important;
-}
-
-/* Exclut les liens contenus dans les boutons */
-button a[target="_blank"]::after,
-a[target="_blank"] button::after {
-  content: none; /* Enlève l'icône pour les liens à l'intérieur des boutons */
+  color: #8a6d3b;;
 }
 
 /* TIMELINE CSS */
@@ -1429,7 +1417,7 @@ a[target="_blank"] button::after {
   background-color: #37A6C3;
 }
 .tl-timeera.tl-timeera-color2 .tl-timeera-background {
-  background-color: #0DAE8E;
+  background-color: #322b52;
 }
 .tl-timeera.tl-timeera-color3 .tl-timeera-background {
   background-color: #0DAE8E;
@@ -1464,7 +1452,7 @@ a[target="_blank"] button::after {
   position: relative;
   overflow: hidden;
   height: 100%;
-  padding: 5px;
+  padding: 10px 5px 1px 10px;
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;
@@ -1485,7 +1473,7 @@ a[target="_blank"] button::after {
   box-orient: vertical;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
-  font-size: 10px;
+  font-size: 16px;
   line-height: 10px;
   overflow: hidden;
   font-weight: normal;
@@ -2537,10 +2525,10 @@ a[target="_blank"] button::after {
 .tl-text .tl-headline-date,
 .tl-text h3.tl-headline-date {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 28px;
   line-height: 15px;
   font-weight: normal;
-  margin: 0 0 8px 0;
+  margin: 0 0 12px 0;
   color: #b3b3b3;
 }
 .tl-text .tl-headline-date small,
@@ -2573,7 +2561,7 @@ a[target="_blank"] button::after {
 .tl-full-color-background .tl-text h3.tl-headline-date,
 .tl-full-image-background .tl-text p h3.tl-headline-date,
 .tl-full-color-background .tl-text p h3.tl-headline-date {
-  color: #f2f2f2 !important;
+  color: #f2f2f2;
 }
 .tl-full-image-background .tl-text .tl-headline-date small,
 .tl-full-color-background .tl-text .tl-headline-date small,
@@ -2583,7 +2571,7 @@ a[target="_blank"] button::after {
 .tl-full-color-background .tl-text h3.tl-headline-date small,
 .tl-full-image-background .tl-text p h3.tl-headline-date small,
 .tl-full-color-background .tl-text p h3.tl-headline-date small {
-  color: #f2f2f2 !important;
+  color: #f2f2f2;
 }
 .tl-full-image-background .tl-text a:hover,
 .tl-full-color-background .tl-text a:hover,
@@ -2610,7 +2598,7 @@ a[target="_blank"] button::after {
 ================================================== */
 .tl-medium .tl-text h2.tl-headline-title,
 .tl-medium .tl-text h2.tl-headline {
-  font-size: 32px;
+  font-size: 18px;
   line-height: 36px;
 }
 /* Mobile, iPhone
@@ -2811,8 +2799,7 @@ a[target="_blank"] button::after {
   color: #FFF !important;
   -text-shadow: 1px 1px 1px #000 !important;
 }
-.tl-slide.tl-full-image-background .tl-media .tl-media-wikipedia a:hover,
-.tl-slide.tl-full-color-background .tl-media .tl-media-wikipedia a:hover {
+.tl-slide.tl-full-image-background .tl-media .tl-media-wikipedia a:hover {
   text-decoration: underline;
   color: #c34528;
 }
@@ -2924,6 +2911,8 @@ a[target="_blank"] button::after {
   border: 1px solid #cccccc;
   border-radius: 8px;
 }
+/* Tragemark timeline
+
 .tl-timeline .tl-attribution {
   cursor: pointer;
   z-index: 9;
@@ -2932,7 +2921,7 @@ a[target="_blank"] button::after {
   left: 0px;
   font-size: 10px;
   line-height: 10px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   background-color: rgba(255, 255, 255, 0.85);
   padding: 3px;
 }
@@ -2959,7 +2948,8 @@ a[target="_blank"] button::after {
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-}
+}*/
+
 /* Portrait
 ================================================== */
 .tl-layout-portrait .tl-storyslider {
@@ -3024,31 +3014,33 @@ https://www.google.com/fonts/specimen/Unica+One
 ================================================== */
 /* GFX
 ================================================== */
--@font-face {
+/* LD HOOK */
+
+@font-face {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/playfairdisplay/v30/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtY.ttf) format('truetype');
 }
--@font-face {
+@font-face {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 700;
   src: url(https://fonts.gstatic.com/s/playfairdisplay/v30/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtY.ttf) format('truetype');
 }
--@font-face {
+@font-face {
   font-family: 'Playfair Display SC';
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/playfairdisplaysc/v15/ke85OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbkMFQ.ttf) format('truetype');
 }
--@font-face {
+@font-face {
   font-family: 'Fauna One';
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/faunaone/v15/wlpzgwTPBVpjpCuwkuEB3kZP.ttf) format('truetype');
 }
--@font-face {
+@font-face {
   font-family: 'Unica One';
   font-style: normal;
   font-weight: 400;
@@ -3057,7 +3049,7 @@ https://www.google.com/fonts/specimen/Unica+One
 /*	Font Base
 ----------------------------------------------------- */
 .tl-timeline {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif important;
   font-weight: 400;
   font-size: 17px;
   line-height: 1.3em;
@@ -3079,27 +3071,27 @@ https://www.google.com/fonts/specimen/Unica+One
   line-height: 42px;
 }
 .tl-timeline p {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif !important;
   font-size: 17px;
   line-height: 1.3em;
 }
 .tl-timeline ul {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif !important;
 }
 .tl-timeline .tl-media .tl-media-wikipedia h4 a,
 .tl-timeline .tl-media h4,
 .tl-timeline .tl-media h4 a {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif !important;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
 }
 .tl-timeline .tl-caption,
 .tl-timeline .tl-credit {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif !important;
 }
 .tl-timeline .vcard {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif !important;
   font-weight: normal !important;
 }
 .tl-timeline .tl-slidenav-next,
@@ -3118,7 +3110,7 @@ https://www.google.com/fonts/specimen/Unica+One
 }
 .tl-timeline .tl-headline-date,
 .tl-timeline h3.tl-headline-date {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif !important;
   font-weight: normal !important;
   text-transform: uppercase !important;
 }
