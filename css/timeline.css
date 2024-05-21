@@ -1469,13 +1469,13 @@ div.button {
   bottom: 0px;
   position: absolute;
   display: -webkit-box;
-  line-clamp: 4;
-  -webkit-line-clamp: 4;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
   box-orient: vertical;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 18px;
   overflow: hidden;
   font-weight: normal;
   margin: 0;
