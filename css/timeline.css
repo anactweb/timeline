@@ -1474,8 +1474,8 @@ div.button {
   box-orient: vertical;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 20px;
+  line-height: 20px;
   overflow: hidden;
   font-weight: normal;
   margin: 0;
