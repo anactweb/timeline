@@ -1372,7 +1372,7 @@ div.button {
 ================================================== */
 .tl-timeera {
   height: 100%;
-  height: 60px;
+  height: 65px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1414,16 +1414,16 @@ div.button {
   background-color: red;
 }
 .tl-timeera.tl-timeera-color1 .tl-timeera-background {
-  background-color: #37A6C3;
+  background-color: #322E52;
 }
 .tl-timeera.tl-timeera-color2 .tl-timeera-background {
-  background-color: #322b52;
+  background-color: #48A5DD;
 }
 .tl-timeera.tl-timeera-color3 .tl-timeera-background {
-  background-color: #0DAE8E;
+  background-color: #006D91;
 }
 .tl-timeera.tl-timeera-color4 .tl-timeera-background {
-  background-color: #0DAE8E;
+  background-color: #86B1BC;
 }
 .tl-timeera.tl-timeera-color5 .tl-timeera-background {
   background-color: #0DAE8E;
@@ -1437,6 +1437,7 @@ div.button {
   height: 100%;
   width: 100px;
   overflow: hidden;
+  padding-bottom: 4px;
   -webkit-transition: height 500ms cubic-bezier(0.77, 0, 0.175, 1), width 1000ms cubic-bezier(0.77, 0, 0.175, 1);
   -moz-transition: height 500ms cubic-bezier(0.77, 0, 0.175, 1), width 1000ms cubic-bezier(0.77, 0, 0.175, 1);
   -o-transition: height 500ms cubic-bezier(0.77, 0, 0.175, 1), width 1000ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -1556,7 +1557,7 @@ div.button {
 /* TL.TimeAxis
 ================================================== */
 .tl-timeaxis-background {
-  height: 60px;
+  height: 65px;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -1566,7 +1567,7 @@ div.button {
   z-index: 2;
 }
 .tl-timeaxis {
-  height: 60px;
+  height: 65px;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -1576,7 +1577,7 @@ div.button {
 .tl-timeaxis .tl-timeaxis-content-container {
   position: relative;
   bottom: 0;
-  height: 60px;
+  height: 65px;
 }
 .tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-major,
 .tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-minor {
@@ -2525,7 +2526,7 @@ div.button {
 .tl-text .tl-headline-date,
 .tl-text h3.tl-headline-date {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 28px;
+  font-size: 38px;
   line-height: 15px;
   font-weight: normal;
   margin: 0 0 12px 0;
