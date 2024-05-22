@@ -1372,7 +1372,7 @@ div.button {
 ================================================== */
 .tl-timeera {
   height: 100%;
-  height: 69px;
+  height: 60px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1556,7 +1556,7 @@ div.button {
 /* TL.TimeAxis
 ================================================== */
 .tl-timeaxis-background {
-  height: 69px;
+  height: 60px;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -1566,7 +1566,7 @@ div.button {
   z-index: 2;
 }
 .tl-timeaxis {
-  height: 69px;
+  height: 60px;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -1576,7 +1576,7 @@ div.button {
 .tl-timeaxis .tl-timeaxis-content-container {
   position: relative;
   bottom: 0;
-  height: 69px;
+  height: 60px;
 }
 .tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-major,
 .tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-minor {
