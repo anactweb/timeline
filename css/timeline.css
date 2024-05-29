@@ -2514,7 +2514,7 @@ padding: 30px;
   min-width: 120px;
   padding: 0 20px 0 20px;
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: top;
   text-align: left;
   color: #737373;
 }
