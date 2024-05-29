@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <title>50 ans d'amélioration des conditions de travail | Anact</title>
@@ -15,10 +15,10 @@
     <link rel="manifest" href="https://cdn.knightlab.com/libs/orangeline/latest/assets/favicons/manifest.json">
     <link rel="mask-icon" href="https://cdn.knightlab.com/libs/orangeline/latest/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <script id='timeline-script-tag' type="text/javascript" src="../js/timeline.js"></script>
     <link rel="stylesheet" href="../css/timeline.css">
-    <link rel="stylesheet" href="../css/remixicon.css">
-    <!-- Lien vers le CSS personnalisé pour Marianne -->
-
+     <link rel="stylesheet" href="../css/remixicon.css">
+    
     <base target="_blank">
 
     <!-- Style-->
@@ -138,27 +138,27 @@
             return url_vars;
         };
 
-        ready(function() {
-            setPageLanguage();
-            var embed_path = computeEmbedPath();
-            addOembedTag();
+ready(function() {
+    setPageLanguage();
+    var embed_path = computeEmbedPath();
+    addOembedTag();
 
-            var options = optionsFromUrlParams();
-            options.language = 'fr'; // Définition de la langue en français
+    var options = optionsFromUrlParams();
+    options.language = 'fr'; // Définition de la langue en français
 
-            createEmbedDiv('timeline-embed', options.width, options.height);
-            // ga_property_id is not something we let users override
-            options.ga_measurement_id = 'G-LVEFKMG087'
-            if (typeof(options.source) == 'undefined') {
-                options.source = '1sU_ljoA9jAZGwWUyfXQemsZ1zC3M2gk6JzbZo6BNd9E' // women in computing
-            }
+    createEmbedDiv('timeline-embed', options.width, options.height);
+    // ga_property_id is not something we let users override
+    options.ga_measurement_id = 'G-LVEFKMG087'
+    if (typeof(options.source) == 'undefined') {
+        options.source = '1sU_ljoA9jAZGwWUyfXQemsZ1zC3M2gk6JzbZo6BNd9E' // women in computing
+    }
 
-            options.soundcite = true;
+    options.soundcite = true;
 
             window.options = options
             window.timeline = new TL.Timeline('timeline-embed', options.source, options)
 
-        });
+        })
     </script>
 </body>
 
