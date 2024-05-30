@@ -3054,6 +3054,48 @@ https://www.google.com/fonts/specimen/Unica+One
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/unicaone/v15/DPEuYwWHyAYGVTSmalsRcd3b.ttf) format('truetype');
+
+@font-face {
+  font-family: 'Fieldwork-Geo';
+  font-style: normal;
+  font-weight: 300; /* Light */
+  src: url('fonts/fieldwork/Fieldwork-Geo-Light.woff2') format('woff2'),
+       url('fonts/fieldwork/Fieldwork-Geo-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Fieldwork-Geo';
+  font-style: normal;
+  font-weight: 400; /* Regular */
+  src: url('fonts/fieldwork/Fieldwork-Geo-Regular.woff2') format('woff2'),
+       url('fonts/fieldwork/Fieldwork-Geo-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Fieldwork-Geo';
+  font-style: normal;
+  font-weight: 600; /* Demibold */
+  src: url('fonts/fieldwork/Fieldwork-Geo-Demibold.woff2') format('woff2'),
+       url('fonts/fieldwork/Fieldwork-Geo-Demibold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Fieldwork-Hum';
+  font-style: normal;
+  font-weight: 300; /* Light */
+  src: url('fonts/fieldwork/Fieldwork-Hum-Light.woff2') format('woff2'),
+       url('fonts/fieldwork/Fieldwork-Hum-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Fieldwork-Hum';
+  font-style: normal;
+  font-weight: 400; /* Regular */
+  src: url('fonts/fieldwork/Fieldwork-HumRegular.woff2') format('woff2'),
+       url('fonts/fieldwork/Fieldwork-HumRegular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Fieldwork-Hum';
+  font-style: normal;
+  font-weight: 700; /* Bold */
+  src: url('fonts/fieldwork/Fieldwork-HumBold.woff2') format('woff2'),
+       url('fonts/fieldwork/Fieldwork-HumBold.woff') format('woff');
 }
 /*	Font Base
 ----------------------------------------------------- */
