@@ -3255,7 +3255,7 @@ input[type="text"].editor-headline {
   DSFR BUTTON
 \* ˍˍˍˍˍˍˍˍˍ */
 
-.fr-btn::before {
+.fr-btn::after {
     content: "\e6a0";
     font-family: "RemixIcon";
     font-size: 24px;
