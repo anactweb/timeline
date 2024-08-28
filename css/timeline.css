@@ -3264,8 +3264,6 @@ input[type="text"].editor-headline {
 
 .tl-text .fr-btn {
     color: #FFF;
-    display: inline-flex; /* Permet d'aligner le texte et l'icône horizontalement */
-    align-items: center;  /* Centre le texte et l'icône verticalement */
     position: relative;
     font-family: "Arial", sans-serif;
     font-weight: 500;
