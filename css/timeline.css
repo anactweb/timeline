@@ -956,22 +956,17 @@ div#discours-dantoine-riboud-au-cnpf {
 #discours-dantoine-riboud-au-cnpf .tl-headline {
   color: #322E52 !important;
 }
-
-div#de-la-fondation-de-lanact-aux-lois-auroux-marker .tl-timemarker-content-container {
-  background-color: #322E52 !important;
-}
-
-div#de-la-fondation-de-lanact-aux-lois-auroux-marker .tl-timemarker-content-container {
-  background-color: #322E52 !important;
-}
-
 div#de-la-fondation-de-lanact-aux-lois-auroux-marker {
+  background-color: #322E52 !important;
+}
+  
+div#de-la-fondation-de-lanact-aux-lois-auroux-marker .tl-timemarker-content-container {
   background-color: #322E52 !important;
 }
 
 div#de-la-fondation-de-lanact-aux-lois-auroux-marker .tl-timemarker-content-container H2 {
   color: #FFF;
-  font-size: 18px !important;
+  font-size: 16px !important;
 }
 div#de-la-regionalisation-au-developpement-de-lintervention-marker {
   background: #006D91 !important;
@@ -985,12 +980,20 @@ div#de-la-regionalisation-au-developpement-de-lintervention-marker .tl-timemarke
   font-size: 14px !important;
 }
 
+div#du-diagnostic-court-a-lappui-conseil-pour-la-reduction-du-temps-de-travail-marker {
+  background-color: #0063CB !important;
+}
+
 div#du-diagnostic-court-a-lappui-conseil-pour-la-reduction-du-temps-de-travail-marker .tl-timemarker-content-container H2 {
   color:#FFF !important;
 }
 
 div#du-diagnostic-court-a-lappui-conseil-pour-la-reduction-du-temps-de-travail-marker .tl-timemarker-content-container {
   background: #0063CB !important;
+}
+
+div#de-la-gestion-des-ages-a-la-prevention-des-rps-marker {
+  background: #86B1BC !important;
 }
 
 div#de-la-gestion-des-ages-a-la-prevention-des-rps-marker .tl-timemarker-content-container {
@@ -1000,6 +1003,10 @@ div#de-la-gestion-des-ages-a-la-prevention-des-rps-marker .tl-timemarker-content
 #de-la-gestion-des-ages-a-la-prevention-des-rps-marker .tl-timemarker-content-container H2 {
   color: #FFF !important;
   font-size: 14px !important;
+}
+
+div#de-la-qvt-a-la-qvct-une-voie-pour-transformer-le-travail-marker {
+  background: #0078F3 !important;
 }
 
 div#de-la-qvt-a-la-qvct-une-voie-pour-transformer-le-travail-marker .tl-timemarker-content-container {
@@ -1520,7 +1527,7 @@ div#de-la-qvt-a-la-qvct-une-voie-pour-transformer-le-travail-marker.tl-timemarke
   background-color: #322E52;
 }
 .tl-timeera.tl-timeera-color2 .tl-timeera-background {
-  background-color: #006D91;
+  background-color: red;
 }
 .tl-timeera.tl-timeera-color3 .tl-timeera-background {
   background-color: #0063CB;
@@ -1820,7 +1827,7 @@ div#de-la-qvt-a-la-qvct-une-voie-pour-transformer-le-travail-marker.tl-timemarke
   height: 100%;
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
+  overflow-x: hixdden;
   overflow-y: auto;
 }
 .tl-slide .tl-slide-background {
