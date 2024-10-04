@@ -172,12 +172,6 @@ padding: 30px;
   .tl-timeline p a {
     text-decoration: underline;
     background-image: none;
-  }
-  .tl-timeline p a:hover,
-  .tl-timeline p a:focus {
-    color: #c34528;
-    -text-decoration: underline;
-  }
 }
 .tl-timeline b,
 .tl-timeline strong {
