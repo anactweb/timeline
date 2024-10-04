@@ -3262,45 +3262,50 @@ input[type="text"].editor-headline {
   DSFR BUTTON
 \* ˍˍˍˍˍˍˍˍˍ */
 
-a.fr-btn {
+.tl-text a.fr-btn {
     color: #FFF;
     position: relative;
-    font-family: "Arial", sans-serif;
+    font-family: "Marianne", sans-serif;
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem;
-    min-height: 2.5rem;
+    min-height: 1.5rem;
     padding: 0.5rem 1rem;
     background: #000091 !important;
     margin-top: 10px;
+    margin-bottom: 0; /* Supprime l'espace en dessous du bouton */
     border: none;
     width: fit-content;
     cursor: pointer;
+    display: inline-flex; /* inline-flex pour meilleure gestion de l'espace */
+    align-items: center; /* Centre verticalement le contenu */
+    text-decoration: none; /* Assure qu'il n'y ait pas de soulignement */
 }
 
-a.fr-btn {
+.tl-text a.fr-btn {
     color: #FFF;
-    text-decoration: none !important;
+    text-decoration: none !important; /* Supprime le soulignement */
+    display: inline-flex; /* Gère mieux l'espacement à l'intérieur du bouton */
+    align-items: center; /* Aligne verticalement */
+    padding: 0;
+    margin: 0;
 }
 
-a.fr-btna:hover {
-    color: #FFF !important;
-    text-decoration: underline;
+.tl-text a.fr-btn:link,
+.tl-text a.fr-btn:visited {
+    text-decoration: none !important; /* Supprime le soulignement des liens non visités et visités */
+}
+
+.tl-text a.fr-btn:hover,
+.tl-text a.fr-btn:focus,
+.tl-text a.fr-btn:active {
+    color: #FFFFFF !important; /* Assure que la couleur reste blanche au hover */
+    text-decoration: none !important; /* Supprime le soulignement lors du hover, focus, et active */
 }
 
 a.fr-btn:hover {
     background-color: #1212ff !important;
-}
-
-a.fr-btn--icon-right {
-    display: inline-flex !important; /* Aligne le texte et l'icône horizontalement */
-    align-items: center !important;  /* Centre le texte et l'icône verticalement */
-}
-
-a.fr-btn .fr-icon-external-link-line:after
-{
-    -webkit-mask-image: url(https://anactweb.github.io/forge-dsfr/src/core/icon/system/external-link-fill.svg);
-    mask-image:url(https://anactweb.github.io/forge-dsfr/src/core/icon/system/external-link-fill.svg)
+    text-decoration: none; /* Assure qu'il n'y ait pas de soulignement sur le bouton */
 }
 @media (min-width: 78em) {
   /*! media xl */
