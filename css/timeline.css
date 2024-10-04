@@ -172,6 +172,12 @@ padding: 30px;
   .tl-timeline p a {
     text-decoration: underline;
     background-image: none;
+  }
+  .tl-timeline p a:hover,
+  .tl-timeline p a:focus {
+    color: #c34528;
+    -text-decoration: underline;
+  }
 }
 .tl-timeline b,
 .tl-timeline strong {
@@ -3245,47 +3251,42 @@ input[type="text"].editor-headline {
 .tl-text .fr-btn {
     color: #FFF;
     position: relative;
-    font-family: "Marianne", sans-serif;
+    font-family: "Arial", sans-serif;
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem;
-    min-height: 1.5rem;
+    min-height: 2.5rem;
     padding: 0.5rem 1rem;
     background: #000091 !important;
     margin-top: 10px;
-    margin-bottom: 0; /* Supprime l'espace en dessous du bouton */
     border: none;
     width: fit-content;
     cursor: pointer;
-    display: inline-flex; /* inline-flex pour meilleure gestion de l'espace */
-    align-items: center; /* Centre verticalement le contenu */
-    text-decoration: none; /* Assure qu'il n'y ait pas de soulignement */
 }
 
 .tl-text .fr-btn a {
     color: #FFF;
-    text-decoration: none !important; /* Supprime le soulignement */
-    display: inline-flex; /* Gère mieux l'espacement à l'intérieur du bouton */
-    align-items: center; /* Aligne verticalement */
-    padding: 0;
-    margin: 0;
+    text-decoration: none !important;
 }
 
-.tl-text .fr-btn a:link,
-.tl-text .fr-btn a:visited {
-    text-decoration: none !important; /* Supprime le soulignement des liens non visités et visités */
-}
-
-.tl-text .fr-btn a:hover,
-.tl-text .fr-btn a:focus,
-.tl-text .fr-btn a:active {
-    color: #FFFFFF !important; /* Assure que la couleur reste blanche au hover */
-    text-decoration: none !important; /* Supprime le soulignement lors du hover, focus, et active */
+.tl-text .fr-btn a:hover {
+    color: #FFF !important;
+    text-decoration: underline;
 }
 
 .tl-text .fr-btn:hover {
     background-color: #1212ff !important;
-    text-decoration: none; /* Assure qu'il n'y ait pas de soulignement sur le bouton */
+}
+
+.tl-text .fr-btn--icon-right {
+    display: inline-flex !important; /* Aligne le texte et l'icône horizontalement */
+    align-items: center !important;  /* Centre le texte et l'icône verticalement */
+}
+
+.tl-text .fr-btn .fr-icon-external-link-line:after
+{
+    -webkit-mask-image: url(https://anactweb.github.io/forge-dsfr/src/core/icon/system/external-link-fill.svg);
+    mask-image:url(https://anactweb.github.io/forge-dsfr/src/core/icon/system/external-link-fill.svg)
 }
 @media (min-width: 78em) {
   /*! media xl */
