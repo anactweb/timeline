@@ -301,6 +301,7 @@ padding: 30px;
   border-radius: 5px;
 }
 .tl-timeline .tl-text ul {
+  font-family: "Marianne", Helvetica, Arial, sans-serif;
   padding: 0px;
   padding-left: 30px;
   margin: 0;
@@ -324,7 +325,7 @@ padding: 30px;
 }
 .tl-timeline .tl-note {
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Marianne", Helvetica, Arial, sans-serif;
   font-style: normal;
   background-color: #9c98ae;
   font-size: 15px;
