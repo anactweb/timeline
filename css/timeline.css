@@ -935,12 +935,26 @@ padding: 30px;
   color: #322E52 !important;
 }
 
+
+#accords-de-grenelle- {
+  background: #FFF;
+}
+#accords-de-grenelle- .tl-text-content p {
+  color: #322E52 !important;
+}
+#accords-de-grenelle- .tl-headline {
+  color: #322E52 !important;
+}
+
 div#discours-dantoine-riboud-au-cnpf {
   background: #FFF;
 }
+#discours-dantoine-riboud-au-cnpf .tl-text-content p {
+  color: #322E52 !important;
+}
 
 #discours-dantoine-riboud-au-cnpf .tl-headline {
-  color: #161616 !important;
+  color: #322E52 !important;
 }
 div#de-la-fondation-de-lanact-aux-lois-auroux-marker {
   background-color: #322E52 !important;
@@ -2624,7 +2638,7 @@ div#de-la-qvt-a-la-qvct-une-voie-pour-transformer-le-travail-marker.tl-timemarke
   padding: 0 0 6px 0;
   margin: 0 0 6px 0;
   border-bottom: solid 1px #9C98AE;
-  color: #7b7b7b !important; /* MATHILDE couleur des dates */
+  color: #9C98AE !important; /* MATHILDE couleur des dates */
 }
 .tl-text .tl-headline-date small,
 .tl-text h3.tl-headline-date small {
@@ -2655,7 +2669,7 @@ div#de-la-qvt-a-la-qvct-une-voie-pour-transformer-le-travail-marker.tl-timemarke
 .tl-full-color-background .tl-text h3.tl-headline-date,
 .tl-full-image-background .tl-text p h3.tl-headline-date,
 .tl-full-color-background .tl-text p h3.tl-headline-date {
-  color: #7b7b7b;
+  color: #9C98AE;
 }
 .tl-full-image-background .tl-text .tl-headline-date small,
 .tl-full-color-background .tl-text .tl-headline-date small,
@@ -3204,7 +3218,7 @@ https://www.google.com/fonts/specimen/Unica+One
 }
 .tl-timeline .tl-headline-date,
 .tl-timeline h3.tl-headline-date {
-  font-family: 'Marianne', sans-serif !important;
+  font-family: 'Arial', sans-serif !important;
   font-weight: normal !important;
   text-transform: uppercase !important;
 }
