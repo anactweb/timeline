@@ -3262,7 +3262,7 @@ input[type="text"].editor-headline {
   DSFR BUTTON
 \* ˍˍˍˍˍˍˍˍˍ */
 
-.tl-text .fr-btn {
+a.fr-btn {
     color: #FFF;
     position: relative;
     font-family: "Arial", sans-serif;
@@ -3278,26 +3278,26 @@ input[type="text"].editor-headline {
     cursor: pointer;
 }
 
-.tl-text .fr-btn a {
+a.fr-btn {
     color: #FFF;
     text-decoration: none !important;
 }
 
-.tl-text .fr-btn a:hover {
+a.fr-btna:hover {
     color: #FFF !important;
     text-decoration: underline;
 }
 
-.tl-text .fr-btn:hover {
+a.fr-btn:hover {
     background-color: #1212ff !important;
 }
 
-.tl-text .fr-btn--icon-right {
+a.fr-btn--icon-right {
     display: inline-flex !important; /* Aligne le texte et l'icône horizontalement */
     align-items: center !important;  /* Centre le texte et l'icône verticalement */
 }
 
-.tl-text .fr-btn .fr-icon-external-link-line:after
+a.fr-btn .fr-icon-external-link-line:after
 {
     -webkit-mask-image: url(https://anactweb.github.io/forge-dsfr/src/core/icon/system/external-link-fill.svg);
     mask-image:url(https://anactweb.github.io/forge-dsfr/src/core/icon/system/external-link-fill.svg)
