@@ -3246,6 +3246,7 @@ input[type="text"].editor-headline {
 \* ˍˍˍˍˍˍˍˍˍ */
 
 .tl-timeline .tl-text a.fr-btn {
+    display: block !important;
     color: #FFF;
     position: relative;
     font-family: "Marianne", sans-serif;
