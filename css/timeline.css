@@ -3262,7 +3262,7 @@ input[type="text"].editor-headline {
   DSFR BUTTON
 \* ˍˍˍˍˍˍˍˍˍ */
 
-.tl-text a.fr-btn {
+.tl-timeline .tl-text a.fr-btn {
     color: #FFF;
     position: relative;
     font-family: "Marianne", sans-serif;
@@ -3282,7 +3282,7 @@ input[type="text"].editor-headline {
     text-decoration: none; /* Assure qu'il n'y ait pas de soulignement */
 }
 
-.tl-text a.fr-btn {
+.tl-timeline .tl-text a.fr-btn {
     color: #FFF;
     text-decoration: none !important; /* Supprime le soulignement */
     display: inline-flex; /* Gère mieux l'espacement à l'intérieur du bouton */
@@ -3291,19 +3291,19 @@ input[type="text"].editor-headline {
     margin: 0;
 }
 
-.tl-text a.fr-btn:link,
+.tl-timeline .tl-text a.fr-btn:link,
 .tl-text a.fr-btn:visited {
     text-decoration: none !important; /* Supprime le soulignement des liens non visités et visités */
 }
 
-.tl-text a.fr-btn:hover,
-.tl-text a.fr-btn:focus,
-.tl-text a.fr-btn:active {
+.tl-timeline .tl-text a.fr-btn:hover,
+.tl-timeline .tl-text a.fr-btn:focus,
+.tl-timeline .tl-text a.fr-btn:active {
     color: #FFFFFF !important; /* Assure que la couleur reste blanche au hover */
     text-decoration: none !important; /* Supprime le soulignement lors du hover, focus, et active */
 }
 
-a.fr-btn:hover {
+.tl-timeline a.fr-btn:hover {
     background-color: #1212ff !important;
     text-decoration: none; /* Assure qu'il n'y ait pas de soulignement sur le bouton */
 }
