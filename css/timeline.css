@@ -943,7 +943,7 @@ padding: 30px;
   color: #322E52 !important;
 }
 #accords-de-grenelle- .tl-headline {
-  color: #322E52 !important;
+  color: #161616 !important;
 }
 
 div#discours-dantoine-riboud-au-cnpf {
@@ -954,7 +954,7 @@ div#discours-dantoine-riboud-au-cnpf {
 }
 
 #discours-dantoine-riboud-au-cnpf .tl-headline {
-  color: #322E52 !important;
+  color: #161616 !important;
 }
 div#de-la-fondation-de-lanact-aux-lois-auroux-marker {
   background-color: #322E52 !important;
@@ -2638,7 +2638,7 @@ div#de-la-qvt-a-la-qvct-une-voie-pour-transformer-le-travail-marker.tl-timemarke
   padding: 0 0 6px 0;
   margin: 0 0 6px 0;
   border-bottom: solid 1px #9C98AE;
-  color: #9C98AE !important; /* MATHILDE couleur des dates */
+  color: #161616 !important; /* MATHILDE couleur des dates */
 }
 .tl-text .tl-headline-date small,
 .tl-text h3.tl-headline-date small {
