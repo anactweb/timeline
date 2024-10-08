@@ -146,19 +146,10 @@ padding: 30px;
   color: #666666;
   text-decoration: underline;
 }
-.tl-timeline p a:hover,
-.tl-timeline p a:focus {
-  color: #c34528;
-}
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .tl-timeline p a {
     text-decoration: underline;
     background-image: none;
-  }
-  .tl-timeline p a:hover,
-  .tl-timeline p a:focus {
-    color: #c34528;
-    -text-decoration: underline;
   }
 }
 .tl-timeline b,
@@ -168,10 +159,6 @@ padding: 30px;
 .tl-timeline i,
 .tl-timeline em {
   font-style: italic;
-}
-.tl-timeline a {
-  text-decoration: none;
-  color: #c34528;
 }
 .tl-timeline a:hover {
   text-decoration: underline;
