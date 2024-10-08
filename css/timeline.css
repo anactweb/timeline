@@ -2461,7 +2461,7 @@ div#de-la-qvt-a-la-qvct-une-voie-pour-transformer-le-travail-marker.tl-timemarke
 .tl-media .tl-media-content-container .tl-media-content video {
   max-width: 100%;
   max-height: 100%;
-  height: 410px; /* Set the desired height */
+  height: 503px; /* Set the desired height */
   object-fit: cover; /* Ensures images are resized without distortion */
 }
 
